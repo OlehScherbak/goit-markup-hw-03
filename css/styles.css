@@ -1,216 +1,212 @@
 :root {
-    --main-bgc: #ffffff;
-    --text-white: #ffffff;
-    --text-h-link: #212121;
-    --axcent-primary-color: #2196F3;
+  --axcent: #2196f3;
+  --main-text-color: #212121;
+  --main-background-color: #ffffff;
+  --text-white: #ffffff;
 }
 
 body {
-    color: #757575;
-    background-color: var(--main-bgc);
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-style: 16px;
+  line-height: 1.17;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* header */
 .nav-logo {
-    color: var(--axcent-primary-color);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.17;
+  color: var(--axcent-primary-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
 }
 
-.nav-logo>span {
-    color: #000000;
+.nav-logo > span {
+  color: #000000;
 }
 
 .link-pages {
-    color: var(--text-h-link);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.17;
+  color: var(--text-h-link);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
 }
 
 .link-contact {
-    color: #757575;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.17;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
 }
 
 header a:hover,
 header a:focus {
-    color: var(--axcent-primary-color);
+  color: var(--axcent-primary-color);
 }
 
 .current-page {
-    color: var(--axcent-primary-color);
+  color: var(--axcent-primary-color);
 }
 
 /* section hero */
 .section-hero {
-    background-color: #2F303A;
-    ;
+  background-color: #2f303a;
 }
 
 .section-hero h1 {
-    color: var(--text-white);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-transform: uppercase;
+  color: var(--text-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
 }
 
 .hero-button {
-    background-color: var(--axcent-primary-color);
-    color: var(--text-white);
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    font-family: 'Roboto', sans-serif;
+  background-color: var(--axcent-primary-color);
+  color: var(--text-white);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* section advantages */
 
 .section-advantages h3 {
-    color: var(--text-h-link);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    text-transform: uppercase;
+  color: var(--text-h-link);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
 }
 
 .section-advantages p {
-    font-size: 14px;
-    line-height: 1.71;
+  font-size: 14px;
+  line-height: 1.71;
 }
-
 
 /* common title */
 .section-title {
-    color: var(--text-h-link);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+  color: var(--text-h-link);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 /* section team */
 .section-team {
-    background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .section-team li {
-    background-color: var(--main-bgc);
+  background-color: var(--main-bgc);
 }
 
 .section-team h3 {
-    color: var(--text-h-link);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.17;
+  color: var(--text-h-link);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
 }
 
 .section-team p {
-    font-size: 16px;
-    line-height: 1.17;
+  font-size: 16px;
+  line-height: 1.17;
 }
 
 /* footer */
 footer {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .footer-logo {
-    color: var(--axcent-primary-color);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.17;
+  color: var(--axcent-primary-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
 }
 
-.footer-logo>span {
-    color: var(--text-white);
+.footer-logo > span {
+  color: var(--text-white);
 }
 
 .footer-address {
-    color: var(--text-white);
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
+  color: var(--text-white);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-contact {
-    color: rgb(255, 255, 255, 0.6);
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
+  color: rgb(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 footer a:hover,
 footer a:focus {
-    color: var(--axcent-primary-color);
+  color: var(--axcent-primary-color);
 }
-
-
 
 /* portfolio.html */
 
 /* section gallery */
 
 .section-gallery button {
-    color: #212121;
-    background-color: #F5F4FA;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
+  color: #212121;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .section-gallery button:hover,
 .section-gallery button:focus {
-    color: var(--text-white);
-    background-color: var(--axcent-primary-color);
+  color: var(--text-white);
+  background-color: var(--axcent-primary-color);
 }
 
 .section-gallery .button-start {
-    color: var(--text-white);
-    background-color: var(--axcent-primary-color);
+  color: var(--text-white);
+  background-color: var(--axcent-primary-color);
 }
 
 .section-gallery h2 {
-    color: var(--text-h-link);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2.0;
+  color: var(--text-h-link);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
 
 .section-gallery p {
-    font-size: 16px;
-    line-height: 1.88;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
-
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
