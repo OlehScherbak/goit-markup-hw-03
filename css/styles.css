@@ -173,6 +173,7 @@ address {
 
 .hero-button {
   border-radius: 4px;
+  border-style: none;
   background-color: var(--axcent);
   color: var(--text-white);
   font-weight: 700;
