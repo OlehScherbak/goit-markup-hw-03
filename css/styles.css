@@ -191,12 +191,11 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-grey);
+  margin: 0;
 }
 
-.advantages {
-  margin-top: 94px;
-  margin-bottom: 94px;
-  width: 1170px;
+.advantages-item {
+  width: 270px;
 }
 
 .advantages-list {
@@ -208,16 +207,16 @@ address {
 }
 
 /* specialization */
-.specialization-title {
+.section-title {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .specialization {
-  margin-bottom: 94px;
-  width: 1170px;
+  padding-top: 0;
 }
 
 .specialization-list {
@@ -234,25 +233,7 @@ address {
   background-color: #f5f4fa;
 }
 
-.inner-container {
-  width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 94px;
-}
-
-.team-title {
-  padding-top: 94px;
-  padding-bottom: 50px;
-  margin-bottom: 0;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
 .team-list {
-  background-color: #f5f4fa;
   display: flex;
 }
 
@@ -265,24 +246,26 @@ address {
 }
 
 .team-item-header {
-  margin-top: 39px;
-  margin-bottom: 10px;
   font-weight: 500;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .team-item-text {
-  margin-bottom: 30px;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--text-grey);
+  padding-bottom: 30px;
+  margin-bottom: 0;
 }
 
 /* footer */
 .footer {
   background-color: var(--secondary-background-color);
-  padding: 60px 0px 60px 215px;
+  padding: 60px 0;
 }
 
 .footer-logo {
@@ -331,13 +314,13 @@ address {
 .button {
   border-radius: 4px;
   background-color: #f5f4fa;
-  font-family: Roboto;
   font-weight: 500;
   line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
   border-style: none;
+  padding: 6px 22px;
 }
 
 .button.start {
@@ -355,7 +338,6 @@ address {
 .button-list {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -364,10 +346,6 @@ address {
 }
 
 /* cases */
-.cases {
-  width: 1170px;
-  margin-bottom: 94px;
-}
 
 .case-item {
   border: 1px solid #eeeeee;
@@ -375,21 +353,21 @@ address {
 }
 
 .case-title {
-  margin-top: 20px;
-  margin-bottom: 4px;
-  margin-left: 24px;
   font-size: 18px;
   font-weight: 700;
   line-height: 0.5;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .case-text {
-  margin-bottom: 20px;
-  margin-left: 24px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-grey);
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
 
 .cases-list {
