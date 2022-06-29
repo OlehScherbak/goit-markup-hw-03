@@ -59,7 +59,13 @@ address {
 
 .container {
   margin: 0 auto;
-  width: 1600px;
+  width: 1200px;
+  padding: 0 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .axcent {
@@ -81,19 +87,12 @@ address {
 
 /* header */
 .nav-logo {
-  margin-left: 215px;
   margin-right: 93px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   color: #000000;
   letter-spacing: 0.03em;
-}
-
-.header {
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
 }
 
 .header-nav {
@@ -118,13 +117,8 @@ address {
   margin-left: 50px;
 }
 
-.nav-link {
-  color: var(--main-text-color);
-}
-
 .header-contact-list {
   display: flex;
-  margin-right: 215px;
   margin-left: auto;
 }
 
@@ -133,28 +127,28 @@ address {
 }
 
 .nav-link {
+  color: var(--main-text-color);
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
-.contact-list-item {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.contact-link {
   color: var(--text-grey);
 }
 
-.contact-list-item:hover,
-.contact-list-item:active {
-  color: var(--axcent);
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
 /* hero */
 .hero {
   background-color: var(--secondary-background-color);
   text-align: center;
-  padding-bottom: 200px;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -167,8 +161,7 @@ address {
   color: var(--text-white);
   width: 696px;
   margin: 0 auto;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .hero-button {
