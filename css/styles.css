@@ -100,6 +100,10 @@ address {
   align-items: center;
 }
 
+.header {
+  display: flex;
+}
+
 .nav-link:hover,
 .nav-link:active {
   color: var(--axcent);
